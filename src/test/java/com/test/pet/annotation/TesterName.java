@@ -1,7 +1,7 @@
 package com.test.pet.annotation;
 
 public enum TesterName {
-    AKASH("Gupta Akash");
+    SUMIT("Sumit Dhiman");
 
     public String authorName;
     TesterName(String authorName)

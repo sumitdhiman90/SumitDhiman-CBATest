@@ -14,9 +14,6 @@ import responseDataModal.PetPojoResponse;
 
 import java.util.Collections;
 
-/**
- * Created by akash.
- */
 
 public class PetTests extends BaseTest {
     private static final String PHOTO_URL = "https://www.tesco.ie/groceries/MarketingContent/Sites/Retail/superstore/Online/P/i/departments/2016/Pets/1BC.jpg";

@@ -27,7 +27,6 @@ public class BaseTest {
 
     /*
      * Initializing the extent report
-     * @author Akash Gupta
      */
     //LoginPage loginPage;
     @BeforeSuite
@@ -38,7 +37,6 @@ public class BaseTest {
     /*
      * Flushing the extent report
      * Opening the extent report automatically after the test suite execution.
-     * @author akash gupta
      */
 
     @AfterSuite
@@ -51,7 +49,6 @@ public class BaseTest {
 
     /*
      * This method helps to write the request and response to the extent report
-     * @author akash gupta
      */
     @BeforeMethod
     public void setUp() {
@@ -71,7 +68,6 @@ public class BaseTest {
 
     /*
      * Read the json file and convert to String
-     * @author : akash gupta
      * @param  : filepath
      */
     public String generateStringFromResource(String path) throws IOException {
